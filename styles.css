@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #141414;
+}
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 370px;
+    margin-top: -200px;
+    margin-left: -185px; /* Adjusted to better center the container */
+    border-radius: 8px;
+    background-color: #1F1F1F;
+    padding-bottom: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+}
+
+.profile-image{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 25px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center; /* Center align the text */
+    margin: 40px 0; /* Add some margin to space out the elements */
+}
+
+.profile-info h1 {
+    font-size: 24px; /* Set the font size for the profile name */
+    color: #f9f9f9;
+    /* Set the font color for the profile name */
+    margin-bottom: 10px; 
+    font-weight: 600;
+}
+
+.profile-info .user-location {
+    color: #B6D84D;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile-info .passion {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin: 0;
+    line-height: 4.5;
+}
+
+.social-links {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: -30px; 
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    width: 370px; /* Ensure social links section fits within the container */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #efefef;
+    background-color: #333333;
+    border-radius: 5px;
+    width: calc(100% - 40px); /* Adjust the width to fit within the container */
+    padding: 10px;
+    margin: 2px auto; /* Center each link horizontally */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    background-color: #555555; /* Change background color on hover and focus */
+    transform: scale(1.05); /* Slightly increase size on hover and focus */
+    outline: none; /* Remove default outline on focus */
+}
+
+@media (max-width: 412px) {
+    .container {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 25px 5%;
+    }
+
+    .social-links a {
+        width: 80%;
+        margin: 10px 20px auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 0;
+        left: 50%;
+        top: 50%;
+        padding: 22px;
+    }
+
+    .social-links{
+        width: 100%;
+        margin: -38px 30px auto;
+    }
+
+    .social-links a {
+        width: 90% !important;
+        margin: 10px -15px auto;
+    }
+}
