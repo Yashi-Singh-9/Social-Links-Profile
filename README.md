@@ -89,7 +89,9 @@
 <p>Below is the Mobile Preview for Social Links Profile: </p>
 <img src="Mobile-Preview.png" alt="Mobile Preview">
 
-<p>You can also view it live on my CodePen: <a href="https://codepen.io/Yashi-the-lessful/pen/XWwQBOy" target="_blank">https://codepen.io/Yashi-the-lessful/pen/XWwQBOy</a></p>
+<h2>Live Demo</h2>
+
+<p>You can also view it live: <a href="https://social-link-profile-by-yashi.netlify.app/" target="_blank">https://social-link-profile-by-yashi.netlify.app/</a></p>
 
 <h2 id="contributing">Contributing</h2>
 <p>Feel free to contribute to improve the Social Links Profile Challenge! Here's how you can contribute:</p>
