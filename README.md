@@ -1,37 +1,37 @@
 # Frontend Mentor - Social Links Profile Solution
+[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Profile%20Solution-blue)](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Available-green)](https://social-links-profile-by-yashi.netlify.app/)
+[![GitLab Repository](https://img.shields.io/badge/GitLab-Repository-orange)](https://gitlab.com/Yashi-Singh-9/social-links-profile.git)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashi%20Singh-blue?logo=linkedin)](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
-This is a solution to the [Social Links Profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This repository contains the solution for the [Social Links Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) challenge on Frontend Mentor. This project helps improve coding skills by working on realistic frontend tasks.
 
-## Table of Contents
+## Live Demo
 
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
-  - [Useful Resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+Check out the live demo of the project: [Live Site](https://social-links-profile-by-yashi.netlify.app/)
+
+## Links
+
+- **GitLab Repository**: [Social Links Profile GitLab](https://gitlab.com/Yashi-Singh-9/social-links-profile.git)
+- **LinkedIn Profile**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
 ## Overview
 
 ### The Challenge
 
 Users should be able to:
+
 - See hover and focus states for all interactive elements on the page.
 
-### Screenshot
+### Screenshots
 
-![Social Links Profile Desktop Preview](Desktop-Preview.png)
+- **Desktop Preview**
 
-![Social Links Profile Mobile Preview](Mobile-Preview.png)
+  ![Desktop-Preview](Desktop-Preview.png)
 
-### Links
+- **Mobile Preview**
 
-- Live Site URL: [Live Site](https://social-link-profile-by-yashi.netlify.app/)
+  ![Desktop-Preview](Mobile-Preview.png)
 
 ## My Process
 
@@ -41,50 +41,33 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Google Fonts](https://fonts.google.com/) - For font styling
+- Google Fonts for font styling
 
 ### What I Learned
 
 In this project, I learned to:
+
 - Implement hover and focus states effectively for interactive elements.
 - Use CSS custom properties to maintain a consistent color scheme.
 - Adjust layouts responsively with media queries to ensure compatibility across various device sizes.
 
-<pre><code>
-
-    <section class="profile-info">
-        <h2>Jessica Randall</h2>
-        <p class="user-location">London, United Kingdom</p>
-        <p class="passion">"Front-end developer and avid reader."</p>
-    </section>
-
-</code></pre>
-
-<pre></code>
-
-    .social-links a:hover {
-        background-color: var(--green);
-        color: var(--grey-700);
-    }
-
-</code></pre>
-
 ### Continued Development
 
 I plan to continue improving:
-- My responsiveness techniques to handle more diverse screen sizes.
-- The performance optimization of my CSS for better load times.
-- My understanding of accessibility features in web design.
+
+- Responsiveness techniques to handle more diverse screen sizes.
+- Performance optimization of CSS for better load times.
+- Understanding of accessibility features in web design.
 
 ### Useful Resources
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) - Great for learning about HTML and CSS properties.
+- [MDN Web Docs](https://developer.mozilla.org/) - Great for learning about HTML and CSS properties.
 - [CSS-Tricks](https://css-tricks.com/) - Helpful articles and examples on CSS techniques.
 
 ## Author
 
-- Frontend Mentor - [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
-- LinkedIn - [Yashi Singh](www.linkedin.com/in/yashi-singh-b4143a246)
+- **Frontend Mentor**: [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
+- **LinkedIn**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
 ## Acknowledgments
 
