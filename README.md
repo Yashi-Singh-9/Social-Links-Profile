@@ -3,6 +3,7 @@
 [![Live Site](https://img.shields.io/badge/Live%20Site-Available-green)](https://social-links-profile-by-yashi.netlify.app/)
 [![GitLab Repository](https://img.shields.io/badge/GitLab-Repository-orange)](https://gitlab.com/Yashi-Singh-9/social-links-profile.git)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashi%20Singh-blue?logo=linkedin)](https://www.linkedin.com/in/yashi-singh-b4143a246)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80021efb-4a6d-4b1e-9849-38d182974cf3/deploy-status)](https://app.netlify.com/sites/social-links-profile-by-yashi/deploys)
 
 This repository contains the solution for the [Social Links Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) challenge on Frontend Mentor. This project helps improve coding skills by working on realistic frontend tasks.
 
