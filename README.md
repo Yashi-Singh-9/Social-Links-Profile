@@ -13,7 +13,6 @@ Check out the live demo of the project: [Live Site](https://social-links-profile
 
 ## Links
 
-- **GitLab Repository**: [Social Links Profile GitLab](https://gitlab.com/Yashi-Singh-9/social-links-profile.git)
 - **LinkedIn Profile**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
 ## Overview
