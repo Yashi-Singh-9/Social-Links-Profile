@@ -1,74 +1,120 @@
-# Frontend Mentor - Social Links Profile Solution
-[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Profile%20Solution-blue)](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
-[![Live Site](https://img.shields.io/badge/Live%20Site-Available-green)](https://social-links-profile-by-yashi.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashi%20Singh-blue?logo=linkedin)](https://www.linkedin.com/in/yashi-singh-b4143a246)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/80021efb-4a6d-4b1e-9849-38d182974cf3/deploy-status)](https://app.netlify.com/sites/social-links-profile-by-yashi/deploys)
-[![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Social-Links-Profile?style=for-the-badge&cacheSeconds=60&randomString=20240925)](https://github.com/Yashi-Singh-9/Social-Links-Profile)
+# Frontend Mentor - Social Links Profile Solution  
+[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Profile%20Solution-blue)](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)  
+[![Live Site](https://img.shields.io/badge/Live%20Site-Available-green)](https://social-links-profile-by-yashi.netlify.app/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yashi%20Singh-blue?logo=linkedin)](https://www.linkedin.com/in/yashi-singh-b4143a246)  
+[![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Social-Links-Profile?style=for-the-badge&cacheSeconds=60&randomString=20240925)](https://github.com/Yashi-Singh-9/Social-Links-Profile)  
 
-This repository contains the solution for the [Social Links Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) challenge on Frontend Mentor. This project helps improve coding skills by working on realistic frontend tasks.
+This repository contains the solution for the [Social Links Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) challenge on Frontend Mentor. This project helped me enhance my frontend development skills by working on realistic tasks.  
 
-## Live Demo
+## Live Demo  
 
-Check out the live demo of the project: [Live Site](https://social-links-profile-by-yashi.netlify.app/)
+Check out the live demo of the project: [Live Site](https://yashi-singh-9.github.io/Social-Links-Profile/)  
 
-## Links
+## Links  
 
-- **LinkedIn Profile**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
+- **LinkedIn Profile**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)  
 
-## Overview
+---
 
-### The Challenge
+## Overview  
 
-Users should be able to:
+### The Challenge  
 
-- See hover and focus states for all interactive elements on the page.
+Users should be able to:  
 
-### Screenshots
+- See hover and focus states for all interactive elements on the page.  
 
-- **Desktop Preview**
+---
 
-  ![Desktop-Preview](Desktop-Preview.png)
+## Screenshots  
 
-- **Mobile Preview**
+- **Desktop Preview**  
 
-  ![Desktop-Preview](Mobile-Preview.png)
+  ![Desktop-Preview](images/Desktop-Preview.png)  
 
-## My Process
+- **Mobile Preview**  
 
-### Built With
+  <img src="images/Mobile-Preview.png" height="750">  
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- Google Fonts for font styling
+---
 
-### What I Learned
+## My Process  
 
-In this project, I learned to:
+### Built With  
 
-- Implement hover and focus states effectively for interactive elements.
-- Use CSS custom properties to maintain a consistent color scheme.
-- Adjust layouts responsively with media queries to ensure compatibility across various device sizes.
+- Semantic HTML5 markup  
+- SCSS for styling  
+- CSS custom properties  
+- Flexbox  
+- Mobile-first workflow  
+- Google Fonts for font styling  
 
-### Continued Development
+---
 
-I plan to continue improving:
+### SCSS Installation and Usage  
 
-- Responsiveness techniques to handle more diverse screen sizes.
-- Performance optimization of CSS for better load times.
-- Understanding of accessibility features in web design.
+To set up SCSS for this project, follow these steps:  
 
-### Useful Resources
+1. **Install Node.js and npm**:  
+   Ensure you have Node.js and npm installed. You can download it [here](https://nodejs.org/).  
 
-- [MDN Web Docs](https://developer.mozilla.org/) - Great for learning about HTML and CSS properties.
-- [CSS-Tricks](https://css-tricks.com/) - Helpful articles and examples on CSS techniques.
+2. **Install SCSS**:  
+   Run the following command to install Sass globally:  
+   ```bash  
+   npm install -g sass  
+   ```  
 
-## Author
+3. **Compile SCSS to CSS**:  
+   Use the following command to compile SCSS to CSS:  
+   ```bash  
+   sass scss/main.scss css/main.css --watch  
+   ```  
+   The `--watch` flag will automatically compile your SCSS file whenever changes are made.  
 
-- **Frontend Mentor**: [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
-- **LinkedIn**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
+4. **Link CSS in HTML**:  
+   Ensure the compiled CSS file is linked in your HTML:  
+   ```html  
+   <link rel="stylesheet" href="css/main.css">  
+   ```  
 
-## Acknowledgments
+---
 
-A big thank you to the Frontend Mentor community for providing such engaging challenges and to my peers for their constructive feedback.
+### What I Learned  
+
+In this project, I enhanced my understanding of:  
+
+- Writing modular and maintainable SCSS code.  
+- Implementing hover and focus states effectively for interactive elements.  
+- Using CSS custom properties to maintain a consistent color scheme.  
+- Adjusting layouts responsively with media queries for various screen sizes.  
+
+---
+
+### Continued Development  
+
+I aim to continue improving:  
+
+- Responsiveness techniques to handle diverse screen sizes.  
+- Performance optimization of SCSS for better load times.  
+- Understanding and implementing accessibility features in web design.  
+
+---
+
+### Useful Resources  
+
+- [MDN Web Docs](https://developer.mozilla.org/) - Great for learning about HTML, CSS, and SCSS properties.  
+- [CSS-Tricks](https://css-tricks.com/) - Helpful articles and examples on CSS and SCSS techniques.  
+- [Sass Documentation](https://sass-lang.com/documentation) - Official documentation for SCSS/Sass.  
+
+---
+
+## Author  
+
+- **Frontend Mentor**: [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)  
+- **LinkedIn**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)  
+
+---
+
+## Acknowledgments  
+
+A big thank you to the Frontend Mentor community for providing such engaging challenges and to my peers for their constructive feedback.  

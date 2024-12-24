@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+$green: hsl(75, 94%, 57%);
+$white: hsl(0, 0%, 100%);
+$grey-700: hsl(0, 0%, 20%);
+$grey-800: hsl(0, 0%, 12%);
+$grey-900: hsl(0, 0%, 8%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: $grey-900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    margin: 60px auto 50px auto;
+    background-color: $grey-800;
+    border-radius: 0.8rem;
+    max-width: 460px;
+    width: 100%;
+
+    @media (max-width: 500px) {
+        width: 90%;
+    }
+    
+    .profile{
+        padding: 45px;
+        text-align: center;
+
+        .profile-image{
+            img{
+                object-fit: cover;
+                border-radius: 50%;
+                height: 80px;
+                width: 80px;
+            }
+        }
+
+        .profile-info{
+            margin-bottom: 0.5rem;
+
+            h2{
+                color: $white;
+                margin-top: 1rem;
+                font-weight: 700;
+                font-size: 1.8rem;
+            }
+
+            .user-location{
+                display: block;
+                margin-top: 0.7rem;
+                color: $green;
+                font-weight: 600;
+            }
+
+            .passion{
+                display: block;
+                margin-top: 1.8rem;
+                color: $white;
+            }
+        }
+    }
+
+    .social-links{
+        text-align: center;
+        margin: -1rem auto 1rem auto;
+
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+
+            li{
+                background-color: $grey-700;
+                padding: 20px;
+                border-radius: 0.8rem;
+                cursor: pointer;
+                margin-bottom: 1rem;
+                max-width: 380px;
+                width: 100%;
+                transition: all 0.3s ease;
+
+                @media (max-width: 500px) {
+                    width: 90%;
+                }
+
+                &:hover{
+                    background-color: $green;  
+                    transform: scale(1.05);
+                    
+                    a {
+                        color: $grey-900; 
+                    }
+                }
+
+                a,
+                a:visited{
+                    text-decoration: none;
+                    color: $white;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+    color: $white;
+    margin: -1rem auto 0.8rem auto;
+
+    a,
+    a:visited{
+        color: $green;
+        text-decoration: none;
+    }
+}
